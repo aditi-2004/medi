@@ -1,0 +1,16 @@
+{
+  "name": "hycure-pwa",
+  "version": "1.0.0",
+  "description": "HyCure Pharma - Medicine Catalog as a Progressive Web App",
+  "author": "Your Name <your.email@example.com>",
+  "private": true,
+  "scripts": {
+    "start": "serve -s .",
+    "build": "echo 'No build step configured. Place your static files in the root folder.'",
+    "pwa:check": "lighthouse http://localhost:5000 --view"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
